@@ -1,2 +1,1 @@
-# pp2-Ayazhan
-pp2
+print("Hello, World!")
