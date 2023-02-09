@@ -1,11 +1,11 @@
 def myfunc(movies):
-    
     d=dict()
     for i in movies:
         l=[]
-        d[movies[i]["category"]]=movies[i]["name"]
-
+        d[i["category"]]=i["name"]
+       
     print(d)
+        
 
 
 movies = [
@@ -85,3 +85,4 @@ movies = [
 "category": "Romance"
 }
 ]
+myfunc(movies)

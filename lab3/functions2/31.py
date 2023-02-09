@@ -6,8 +6,7 @@ def myfunc(movies):
         c1=i['category']
         if c.lower()==c1.lower():
             l.append(i)
-            sum+=i["imdb"]
-    return (sum/len(l))
+    return l
 movies = [
 {
 "name": "Usual Suspects",
