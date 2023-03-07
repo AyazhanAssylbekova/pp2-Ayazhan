@@ -1,9 +1,8 @@
 import os 
-a=input("Enter ur path: ")
+# a=input("Enter ur path: ")
+# f=os.listdir(a)
+a=r"C:/Users/77785/Desktop/pp2-Ayazhan"
 f=os.listdir(a)
-# f=os.listdir("C:/Users/77785/Desktop/pp2-Ayazhan")
 for i in f:
-    if i.endswith(".py" or ".txt"):
-        continue
-    else:
+    if os.path.isdir(i):
         print(i,end="\n")
