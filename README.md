@@ -1,2 +1,2 @@
 # pp2-Ayazhan
-pp2
+ i did labs from pp2(python) 
